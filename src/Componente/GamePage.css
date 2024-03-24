@@ -1,0 +1,48 @@
+/* GamePage.css */
+
+
+.game-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.players-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.player-container {
+  text-align: center;
+  width: 48%;
+}
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.button-return {
+
+  align-self: center;
+  width: 10%;
+  position: fixed;
+  bottom: 25px;
+  left: 44%;
+  justify-content: space-between;
+
+}
+
+.button-reset {
+
+  align-self: center;
+  width: 10%;
+  position: fixed;
+  bottom: 70px;
+  left: 44%;
+  justify-content: space-between;
+
+}

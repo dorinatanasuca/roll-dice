@@ -1,0 +1,19 @@
+/* MenuDrop.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+.MenuDrop-style {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: normal;
+    opacity: 1;
+    text-shadow: -1px -1px 0 #ffd966 1px -1px 0 #ffd966 -1px 1px 0 #ffd966 3px 3px 0 #ffd966;
+    letter-spacing: .040em;
+    padding: 0;
+    font-size: 35px;
+    line-height: 1.2em;
+    color: #f44336;
+  }

@@ -1,0 +1,35 @@
+/* Titlul.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1cm;
+  opacity: 10;
+  text-align: center;
+  color: orange; /* Set your desired title color */
+  font-size: 60px; /* Set your desired font size */
+  font-family: 'Bungee Spice', sans-serif; /* Apply the specified font family */
+  font-weight: 500;
+  font-style: normal;
+  white-space: nowrap; /* Prevent line breaks */
+}
+
+.hover-container {
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-overlay {
+  color: black; /* Set your text color */
+  font-size: 30px; /* Set your text font size */
+  opacity: 1;
+}
+
+.hover-container:hover .text-overlay {
+  opacity: 1;
+}
